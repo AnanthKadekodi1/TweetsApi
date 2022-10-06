@@ -1,0 +1,437 @@
+{
+	"info": {
+		"_postman_id": "9bf76b57-0adc-4230-9c1f-b7d2d23b0ba5",
+		"name": "Tweets Api Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "authorisationentication",
+			"item": [
+				{
+					"name": "User 1 usersignup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\" : \"user1\",\r\n    \"userPassword\" : \"pass1\",\r\n    \"userFirstName\" : \"First1\",\r\n    \"userLastName\" : \"Last1\",\r\n    \"userBio\" : \"This is bio of user1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/authorisation/usersignup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"authorisation",
+								"usersignup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 2 usersignup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\" : \"user2\",\r\n    \"userPassword\" : \"pass2\",\r\n    \"userFirstName\" : \"First2\",\r\n    \"userLastName\" : \"Last2\",\r\n    \"userBio\" : \"This is bio of user2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/authorisation/usersignup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"authorisation",
+								"usersignup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 3 usersignup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\" : \"user3\",\r\n    \"userPassword\" : \"pass3\",\r\n    \"userFirstName\" : \"First3\",\r\n    \"userLastName\" : \"Last3\",\r\n    \"userBio\" : \"This is bio of user3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/authorisation/usersignup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"authorisation",
+								"usersignup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 4 usersignup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userName\" : \"user4\",\r\n    \"userPassword\" : \"pass4\",\r\n    \"userFirstName\" : \"First4\",\r\n    \"userLastName\" : \"Last4\",\r\n    \"userBio\" : \"This is bio of user4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/authorisation/usersignup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"authorisation",
+								"usersignup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 5 usersignup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userName\" : \"user5\",\r\n    \"userPassword\" : \"pass5\",\r\n    \"userFirstName\" : \"First5\",\r\n    \"userLastName\" : \"Last5\",\r\n    \"userBio\" : \"This is bio of user5\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/authorisation/usersignup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"authorisation",
+								"usersignup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 1 userlogin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\" : \"user1\",\r\n    \"userPassword\" : \"pass1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/authorisation/userlogin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"authorisation",
+								"userlogin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 2 userlogin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\" : \"user2\",\r\n    \"userPassword\" : \"pass2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/authorisation/userlogin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"authorisation",
+								"userlogin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 3 userlogin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\" : \"user3\",\r\n    \"userPassword\" : \"pass3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/authorisation/userlogin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"authorisation",
+								"userlogin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 4 userlogin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\" : \"user4\",\r\n    \"userPassword\" : \"pass4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/authorisation/userlogin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"authorisation",
+								"userlogin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 5 userlogin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\" : \"user5\",\r\n    \"userPassword\" : \"pass5\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/authorisation/userlogin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"authorisation",
+								"userlogin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User userlogout",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/authorisation/userlogout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"authorisation",
+								"userlogout"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tweets",
+			"item": [
+				{
+					"name": "Create Tweet",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"content\" : \"This is a tweet from a user\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/tweets",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"tweets"
+							]
+						},
+						"description": "Whoever is logged in will post the tweet"
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Tweet By User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/tweets/user/user1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"tweets",
+								"user",
+								"user1"
+							]
+						},
+						"description": "Change the user to get tweets from a user"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Tweet By TweetId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/tweets/id/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"tweets",
+								"id",
+								"2"
+							]
+						},
+						"description": "Get the tweet from the ID"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Tweet feed ",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/tweetsapi/tweets",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tweetsapi",
+								"tweets"
+							]
+						},
+						"description": "Get all tweets"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

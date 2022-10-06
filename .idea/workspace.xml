@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8c699ae-5662-4729-af26-6db6240df142" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/.elasticbeanstalk/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/AWS_Deployment_Attempt_Screenshots.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/On-Prem-App-Manual-Testing.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/TweetsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/configuration/ApiSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/controller/AuthorisationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/controller/TweetsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/dto/TweetsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/dto/TweetsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/dto/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/dto/UserRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/dto/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/exceptions/TweetsApiGeneralException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/exceptions/TweetsNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/mapper/TweetMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/model/Tweet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/repository/TweetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/service/TweetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/java/com/example/TweetsApi/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/src/test/java/com/example/TweetsApi/TweetsApiTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-AWS-Modification/~$S_Deployment_Attempt_Screenshots.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/On-Prem-App-Manual-Testing.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/Tweets Api.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/TweetsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/configuration/ApiSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/controller/AuthorisationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/controller/TweetsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/dto/TweetsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/dto/TweetsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/dto/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/dto/UserRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/dto/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/exceptions/TweetsApiGeneralException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/exceptions/TweetsNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/mapper/TweetMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/model/Tweet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/repository/TweetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/service/TweetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/java/com/example/TweetsApi/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tweets-Api-On-Prem/src/test/java/com/example/TweetsApi/TweetsApiTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2FfvqohENUxbJqveT8jRQEaHykk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/TABKAD/Downloads/Java_Challenges/TweetsApi/Tweets-Api-On-Prem",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "6d877335f7ca8181c5ee17347dae09d2"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TweetsApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TweetsApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.TweetsApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.TweetsApi" />
+      <option name="MAIN_CLASS_NAME" value="com.example.TweetsApi.TweetsApiTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TweetsApi [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="TweetsApi" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="TweetsApi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TweetsApi.TweetsApi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TweetsApiTests" />
+      <item itemvalue="Maven.TweetsApi [package]" />
+      <item itemvalue="Spring Boot.TweetsApi" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.TweetsApi [package]" />
+        <item itemvalue="JUnit.TweetsApiTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8c699ae-5662-4729-af26-6db6240df142" name="Changes" comment="" />
+      <created>1664896148975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664896148975</updated>
+      <workItem from="1664896154111" duration="175000" />
+      <workItem from="1664896341624" duration="615000" />
+      <workItem from="1664929689273" duration="11815000" />
+      <workItem from="1664966490883" duration="19273000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/TweetsApi.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/TweetsApi.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/service/AuthService.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/controller/AuthorisationController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/controller/AuthorisationController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/service/AuthService.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/service/AuthService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/service/AuthService.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/service/AuthService.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/controller/AuthorisationController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/controller/AuthorisationController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/service/TweetService.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/service/TweetService.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/service/TweetService.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/controller/AuthorisationController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/service/AuthService.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/service/AuthService.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/controller/AuthorisationController.java</url>
+          <line>38</line>
+          <properties class="com.example.TweetsApi.controller.AuthorisationController" method="logout">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/TweetsApi/controller/AuthorisationController.java</url>
+          <line>31</line>
+          <properties class="com.example.TweetsApi.controller.AuthorisationController" method="login">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
